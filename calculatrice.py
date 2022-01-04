@@ -1,1 +1,18 @@
-salut
+import tkinter as tk
+
+racine = tk.Tk()
+
+racine.title("calculatrice")
+
+bouton1 = tk.Button(racine, text="1", font=("helvetica", "10")) # création du widget
+bouton2 = tk.Button(racine, text="2", font = ("helvetica", "10"))
+bouton3 = tk.Button(racine, text="3", font = ("helvetica", "10"))
+bouton4 = tk.Button(racine, text="4", font = ("helvetica", "10"))
+
+bouton1.grid(column = 0, row=0)
+bouton2.grid(column=0, row=1)
+bouton3.grid(column=0, row=3)
+bouton4.grid(column=0, row=4)
+
+
+racine.mainloop()

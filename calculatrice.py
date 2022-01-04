@@ -1,4 +1,5 @@
 import tkinter as tk
+from typing import Text
 
 racine = tk.Tk()
 
@@ -47,3 +48,10 @@ boutondel.grid(column= 1, row=4)
 
 
 racine.mainloop()
+
+def bouton1():
+    x1 = 1 
+    label(Text)
+
+def bouton2():
+    x2 = 2
